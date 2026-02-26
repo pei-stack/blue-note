@@ -3,24 +3,36 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="noindex, nofollow, noarchive">
     <meta name="googlebot" content="noindex, nofollow, noarchive">
     <meta name="referrer" content="no-referrer">
-    <title>青色申告帳簿アプリへ移動中...</title>
-    <script>
-        var targetUrl = "https://script.google.com/macros/s/AKfycby1dh0n54oQgcGNaAM8IVsBBLDEwwvaM8S4U6da9VBEIqHDP5yJvzyC8UZj2jMnjhby/exec";
-        window.location.replace(targetUrl);
-    </script>
-    <noscript>
-        <meta http-equiv="refresh"
-            content="0;url=https://script.google.com/macros/s/AKfycby1dh0n54oQgcGNaAM8IVsBBLDEwwvaM8S4U6da9VBEIqHDP5yJvzyC8UZj2jMnjhby/exec">
-    </noscript>
+    <title>青色申告帳簿アプリ</title>
+    <style>
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            /* iframe外側のスクロールバーを隠す */
+            background-color: #f8fafc;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+    </style>
 </head>
 
-<body
-    style="background-color: #f8fafc; color: #64748b; font-family: sans-serif; text-align: center; padding-top: 20vh;">
-    <p>アプリへ安全に接続しています...</p>
+<body>
+    <iframe
+        src="https://script.google.com/macros/s/AKfycby1dh0n54oQgcGNaAM8IVsBBLDEwwvaM8S4U6da9VBEIqHDP5yJvzyC8UZj2jMnjhby/exec"
+        allow="fullscreen" title="青色申告帳簿アプリ"></iframe>
 </body>
 
 </html>
